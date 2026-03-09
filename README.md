@@ -1,84 +1,57 @@
-🚚 Swiggy Delivery Time Prediction using Linear Regression
+# 🚚 Swiggy Delivery Time Prediction using Linear Regression
 
-This project focuses on predicting Swiggy food delivery time using a Machine Learning Linear Regression model. The objective is to analyze delivery-related features and estimate the expected delivery time more accurately.
+This project predicts **Swiggy food delivery time** using a **Linear Regression model**.  
+A **simulated dataset** is used to demonstrate the complete machine learning workflow including data exploration, preprocessing, modeling, and evaluation.
 
-The project was implemented using Python in Google Colab, following a complete data science workflow including data exploration, preprocessing, modeling, and evaluation. A simulated dataset was used to demonstrate the machine learning process.
+---
 
-📊 Project Workflow
+## 📊 Project Workflow
 
-The following steps were performed in this project:
+- Import Required Libraries  
+- Basic Data Exploration  
+- Exploratory Data Analysis (EDA) using **histograms, box plots, and scatter plots**  
+- Remove Useless Features  
+- Data Preprocessing  
+- Feature Selection  
+- Train–Test Split  
+- Feature Scaling  
+- Model Building (**Linear Regression**)  
+- Model Evaluation  
+- Actual vs Predicted Visualization  
+- Comparison Table  
 
-1️⃣ Import Required Libraries
-Used Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
+---
 
-2️⃣ Basic Data Exploration
-Examined dataset structure, data types, missing values, and summary statistics.
+## 📈 Model Performance
 
-3️⃣ Exploratory Data Analysis (EDA)
-Visualized data patterns using:
+| Metric | Value |
+|------|------|
+| MAE | 5.01 |
+| RMSE | 6.22 |
+| R² Score | 0.898 |
 
-📈 Histograms – to understand distribution of numerical features
+---
 
-📦 Box Plots – to detect outliers
+## 🛠 Technologies Used
 
-🔵 Scatter Plots – to analyze relationships between variables
+- Python  
+- Google Colab  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
-4️⃣ Remove Useless Features
-Dropped irrelevant columns that do not contribute to prediction.
+---
 
-5️⃣ Data Preprocessing
-Handled missing values and encoded categorical variables.
+## 🔗 Project Notebook
 
-6️⃣ Feature Selection
-Selected the most relevant variables affecting delivery time.
-
-7️⃣ Train–Test Split
-Split the dataset into training and testing sets for unbiased evaluation.
-
-8️⃣ Feature Scaling
-Standardized numerical features to improve model performance.
-
-9️⃣ Model Building
-Implemented a Linear Regression model to predict delivery time.
-
-🔟 Model Evaluation
-Evaluated the model using standard regression metrics.
-
-1️⃣1️⃣ Actual vs Predicted Visualization
-Compared predicted values with actual delivery times.
-
-1️⃣2️⃣ Comparison Table
-Displayed predicted vs actual values for clearer interpretation.
-
-📈 Model Performance
-Metric	Value
-MAE (Mean Absolute Error)	5.01
-RMSE (Root Mean Squared Error)	6.22
-R² Score	0.898
-
-The R² score of 0.898 indicates that the model explains approximately 89.8% of the variance in delivery time, showing strong predictive capability.
-
-🛠 Technologies Used
-
-Python
-
-Google Colab
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-🔗 Project Notebook
-
-📎 Google Colab Notebook:
+Google Colab:  
 https://colab.research.google.com/drive/1gIHaQxJn7OBoDTlpYvI6cFbb87bCCvX6?usp=sharing
 
-💡 Project Objective
+---
 
-This project demonstrates how machine learning techniques can be applied to delivery service operations to estimate delivery time more accurately. Such predictive models can help improve delivery planning, operational efficiency, and customer satisfaction.
+## 💡 Objective
+
+This project demonstrates how **machine learning can be applied to estimate delivery times** and improve delivery planning and efficiency.
+
